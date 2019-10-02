@@ -8,6 +8,8 @@ Website for the presentation of the Midiakit of the Sistema Verdes Mares vehicle
 ## Technology
 * Wordpress
 
-## Screenshot site
+## Screenshot home
 ![Screenshot site](./layout-home.png)
+
+## Screenshot vehicle
 ![Screenshot vehicle](./layout-vehicle.png)
