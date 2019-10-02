@@ -1,0 +1,90 @@
+/* CSS Document
+
+Projeto: Midiakit SVM 2012
+Desenvolvido por: Joares Miranda e 
+
+*/
+
+* { margin:0; padding:0; }
+html { background-color:#E6E6E6; }
+body { font:14px Arial, Helvetica, sans-serif; color:#333; }
+a img { border:none; }
+
+#Site { background-color:#FFF;/*background:url(imagens/bg-site.png) repeat-x top left;*/ width:960px; margin:0 auto; position:relative; }
+#Structure { width:960px; margin:0 auto; background:url(imagens/bg-main-blog.png) no-repeat top right; }
+
+#Main { clear:both; min-height:735px; }
+
+#Header { padding-top:55px; margin-left:10px; } 
+#Header h1 { text-indent:-5000px; overflow:hidden; background:url(imagens/logo-midiakit.png) no-repeat top left; width:541px; height:67px; }
+#Header h1 a { width:541px; height:67px; display:block; }
+
+#Menu { background:url(imagens/bg-menu.png) no-repeat top left; width:944px; height:54px; margin:0 auto; }
+#Menu h3 { display:none; }
+#Menu li { list-style:none; display:inline; margin:0 15px; position:relative; top:20px; }
+#Menu li a { text-decoration:none; color:#666; }
+#Menu li a:hover { text-decoration:underline; color:#333; }
+
+#Footer { background:url(imagens/bg-footer.png) repeat-x top left; height:147px; margin-top:30px; clear:both; float:none; width:100%; }
+#Footer div { background:url(imagens/bg-rodape.png) no-repeat top left; width:960px; margin:0 auto; }
+#MenuFooter { margin-left:110px; font:12px Arial, Helvetica, sans-serif; color:#FFF; position:relative; top:42px; }
+#MenuFooter a { color:#FFF; text-decoration:none; margin:0 10px; }
+
+#Logos { margin:60px 0 0 130px; padding-bottom:20px; }
+#Logos img { margin-right:3px; }
+
+
+/* Interna */
+#Interna #Menu { position:absolute; top:0; left:10px; }
+#Interna #Header { padding-top:85px; }
+
+#Content { width:620px; float:left; margin:40px 0 20px 10px; }
+
+.cxPost { width:610px; margin-bottom:45px; clear:both; float:left; }
+.cxPost .tpPost { border-left:5px solid #690; padding-left:10px; margin-bottom:10px; }
+.tpPost .data { font:12px Arial, Helvetica, sans-serif; margin-bottom:5px; }
+.tpPost h1 { font:26px Arial, Helvetica, sans-serif; }
+.tpPost h1 a { color:#666; text-decoration:none; }
+.txtPost { margin-bottom:20px; } 
+.txtPost p { line-height:18px; margin-bottom:15px; }
+.txtPost a,
+.footerPost a { color:#690; text-decoration:none; }
+.footerPost { width:600px; padding:5px 5px 2px 5px; float:left; clear:both; background-color:#FFF; border-bottom:3px solid #CCC; }
+.footerPost p { width:300px; float:left; font-size:12px; position:relative; top:3px; }
+.footerPost ul { list-style:none; width:250px; text-align:right; float:right; }
+.footerPost li { display:inline; }
+
+/* paginacao */
+#navegacao { clear:both;  text-align:right; margin-bottom:25px; font-size:12px; }
+.wp-pagenavi a { padding: 2px 4px; margin: 2px; text-decoration: none; border: 1px solid #690; color: #000; background-color: #FFF;	}
+.wp-pagenavi a:hover { border: 1px solid #690; color: #FFF; background-color: #690; }
+.wp-pagenavi span.pages { display:none; }
+.wp-pagenavi span.current,
+.wp-pagenavi span.extend { padding: 2px 4px; margin: 2px; color: #FFF; background-color: #690; }
+.wp-pagenavi span.current { font-weight: bold; border:none; }
+.wp-pagenavi span.extend { border: 1px solid #FC0;  display:none; }
+
+
+
+
+/* Sidebar */
+#Sidebar { width:280px; padding:15px 10px 20px 10px; float:right; margin-top:260px; }
+.ttSidebar { border-left:5px solid #CCC; padding-left:10px; font:22px Arial, Helvetica, sans-serif; margin-bottom:10px; color:#690; }
+#ProjetosSidebar,
+#PostsRecentes,
+#Tags { margin-bottom:30px; }
+.boxColuna {  } 
+.boxColuna li { list-style:none; margin-bottom:10px; padding-bottom:10px; border-bottom:1px solid #CCC; clear:both; width:280px; float:left; clear:both; } 
+.boxColuna img { float:right; margin:0 0 10px 10px; }
+.boxColuna li p { font:18px Arial, Helvetica, sans-serif; }
+.cartolinha { font-size:12px !important; }
+.boxColuna li p a { color:#333; text-decoration:none; }
+.boxColuna li p a:hover,
+#PostsRecentes li a:hover { color:#690; }
+.visiteMidiakit { clear:both; background-color:#FFF; text-align:right; padding:5px; border-bottom:3px solid #CCC; font-size:12px; }
+.visiteMidiakit a { color:#690; text-decoration:none; }
+
+#PostsRecentes li { list-style:none; border-bottom:1px solid #CCC; margin-bottom:15px; padding-bottom:15px; }
+#PostsRecentes li a { color:#333; text-decoration:none; }
+#Tags div { text-align:center; }
+#Tags div a { color:#690; margin:5px; text-decoration:none; }

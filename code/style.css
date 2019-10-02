@@ -1,0 +1,177 @@
+/* CSS Document
+
+Projeto: Midiakit SVM 2012
+Desenvolvido por: Joares Miranda e 
+
+*/
+
+* { margin:0; padding:0; }
+html { background-color:#E6E6E6; }
+body { font:14px Arial, Helvetica, sans-serif; color:#333; }
+a img { border:none; }
+
+#Site { background:url(imagens/bg-site.png) repeat-x top left; width:960px; margin:0 auto; position:relative; }
+#Structure { width:960px; margin:0 auto; background:url(imagens/bg-main.png) no-repeat top right; }
+
+#Main { clear:both; min-height:735px; }
+
+#Header { padding-top:55px; margin-left:10px; } 
+#Header h1 { text-indent:-5000px; overflow:hidden; background:url(imagens/logo-midiakit.png) no-repeat top left; width:541px; height:67px; }
+#Header h1 a { width:541px; height:67px; display:block; }
+
+#Login { position:absolute; top:380px; right:20px; width:225px; }
+#Login span.e-mail,
+#Login span.senha { display:none; }
+.email,
+.password { border:1px solid #CCC; width:178px; padding:8px 3px; margin:5px 0; }
+
+.btsCadastro { color:#FFF; font:11px Arial, Helvetica, sans-serif; }
+.btsCadastro a { color:#FFF; }
+.btAcessar { background:url(imagens/botao-login.png) no-repeat top left; width:30px; height:30px; border:none; text-indent:-5000px; overflow:hidden; cursor:pointer; margin-left:5px; }
+
+#Menu { background:url(imagens/bg-menu.png) no-repeat top left; width:944px; height:54px; margin:0 auto; }
+#Menu h3 { display:none; }
+#Menu li { list-style:none; display:inline; margin:0 15px; position:relative; top:20px; }
+#Menu li a { text-decoration:none; color:#666; }
+#Menu li a:hover { text-decoration:underline; color:#333; }
+
+#Slide { width:620px; height:360px; margin:60px 0 0 10px; }
+#Vitrine { background:url(imagens/bg-vitrine.png) no-repeat top left; width:940px; height:340px; margin:20px auto; clear:both; }
+#Vitrine h2 { font:bold 14px Arial, Helvetica, sans-serif; color:#FFF; }
+.theme-default .nivo-caption { width:280px; height:288px; background:url(imagens/bg-tt-slide.png) no-repeat top left; }
+.nivo-caption { width:278px !important; text-align:right !important; padding:80px 10px 0 0; }
+.nivo-caption .veiculo { font:bold 12px Arial, Helvetica, sans-serif; }
+.nivo-caption h2 { width:265px !important; font:bold 20px Arial, Helvetica, sans-serif; margin:3px 0; }
+.nivo-caption .leiaMais { font:12px Arial, Helvetica, sans-serif; }
+.nivo-caption .leiaMais a { color:#333; text-decoration:none; }
+.nivo-caption .leiaMais a:hover { color:#666; text-decoration:underline; }
+
+#PesquisaProjeto { width:280px; }
+#Capa  #PesquisaProjeto { float:left; margin-left:55px; position:relative; top:63px; }
+#PesquisaProjeto form { width:280px; padding:10px 10px 37px 0; font-size:12px; margin-top:10px; }
+#PesquisaProjeto form p { margin-bottom:15px; line-height:18px; }
+#FormPesquisaProjeto select { width:270px; padding:5px; border:1px solid #CCC; }
+#FormPesquisaProjeto .periodo1 { width:85px; }
+.pesquisaPalavraChave { width:255px; padding:5px; border:1px solid #CCC; }
+.btPesquisar { border:none; background-color:#93C01F; color:#FFF; padding:6px 107px; cursor:pointer; font-size:12px; }
+
+#DestaqueBlog {  width:580px; margin-left:350px; position:relative; top:63px; }
+.boxPost { width:280px; float:left; margin:20px 10px 0 0; }
+.boxPost h3 { font:14px Arial, Helvetica, sans-serif; margin-top:5px; }
+.boxPost h3 a { color:#333; text-decoration:none; line-height:18px; }
+
+
+#Footer { background:url(imagens/bg-footer.png) repeat-x top left; height:147px; margin-top:30px; clear:both; float:none; width:100%; }
+#Footer div { background:url(imagens/bg-rodape.png) no-repeat top left; width:960px; margin:0 auto; }
+#MenuFooter { margin-left:110px; font:12px Arial, Helvetica, sans-serif; color:#FFF; position:relative; top:42px; }
+#MenuFooter a { color:#FFF; text-decoration:none; margin:0 10px; }
+
+#Logos { margin:60px 0 0 130px; padding-bottom:20px; }
+#Logos img { margin-right:3px; }
+
+
+
+/* Interna */
+#Interna #Menu { position:absolute; top:0; left:10px; }
+#Interna #Header { padding-top:85px; }
+
+#Content { width:620px; float:left; margin:40px 0 20px 10px; }
+#Sobre img { float:right; margin:0 0 10px 10px; }
+
+.ttSecao { font:16px Arial, Helvetica, sans-serif; text-transform:uppercase; padding:6px 0 8px 8px; margin-bottom:10px; }
+
+#Projetos { margin:40px 0; clear:both; float:none; }
+.cxProjeto { clear:both; float:none; margin-bottom:45px; padding-left:10px; border-left:5px solid; font-family:Arial, Helvetica, sans-serif; line-height:18px; }
+.cxProjeto img { float:left; margin:0 10px 10px 0; }
+.cxProjeto h3 { margin-bottom:5px; }
+.cxProjeto ul { margin-top:10px; }
+.cxProjeto li { list-style:none; display:inline; margin-right:30px; padding:5px 0 5px 30px; }
+.cxProjeto li a { text-decoration:none; }
+.albumFotos { background:url(imagens/ic-camera.png) no-repeat center left; }
+.pdf { background:url(imagens/ic-pdf.png) no-repeat center left; }
+
+/* Sidebar */
+#Sidebar { width:280px; padding:15px 10px 20px 10px; float:right; margin-top:380px; }
+
+.linksInstitucionais { position:relative; }
+.linksInstitucionais h3 { font:16px Arial, Helvetica, sans-serif; text-transform:uppercase; margin:35px 0 10px 0; }
+.linksInstitucionais li { list-style:none; margin:5px 0; font-size:12px; padding-left:10px; }
+.linksInstitucionais a { text-decoration:none; color:#333; }
+
+.scroll-pane { clear:both; height:155px; padding-left:5px; background-color:#F4F4F4; }
+.scroll-pane li { background:none !important; padding-left:0; }
+.verTodos { font-size:12px; position:absolute; top:5px; right:0; }
+
+
+/* Cores */
+.tvm .ttSecao { background:url(imagens/tvm-bg-tt.png) no-repeat top left; color:#009ADF; }
+.tvm .cxProjeto { border-color:#009ADF; }
+.tvm .cxProjeto li a,
+.tvm .linksInstitucionais h3 { color:#009ADF; }
+.tvm #Sidebar { background:#C0E4F9 url(imagens/tvm-bg-top-coluna.png) no-repeat top left; }
+.tvm .btPesquisar { background-color:#009ADF; }
+.tvm .linksInstitucionais li { background:url(imagens/tvm-iclista.gif) no-repeat center left; }
+
+.tvmcariri .ttSecao { background:url(imagens/tvmcariri-bg-tt.png) no-repeat top left; color:#0071A3; }
+.tvmcariri .cxProjeto { border-color:#0071A3; }
+.tvmcariri .cxProjeto li a,
+.tvmcariri .linksInstitucionais h3 { color:#0071A3; }
+.tvmcariri #Sidebar { background:#41C8F4 url(imagens/tvmcariri-bg-top-coluna.png) no-repeat top left; }
+.tvmcariri .btPesquisar { background-color:#0071A3; }
+.tvmcariri .linksInstitucionais li { background:url(imagens/tvmcariri-iclista.gif) no-repeat center left; }
+
+.recifefm .ttSecao { background:url(imagens/recifefm-bg-tt.png) no-repeat top left; color:#D52229; }
+.recifefm .cxProjeto { border-color:#D52229; }
+.recifefm .cxProjeto li a,
+.recifefm .linksInstitucionais h3 { color:#D52229; }
+.recifefm #Sidebar { background:#FBA81A url(imagens/recifefm-bg-top-coluna.png) no-repeat top left; }
+.recifefm .btPesquisar { background-color:#D52229; }
+.recifefm .linksInstitucionais li { background:url(imagens/recifefm-iclista.gif) no-repeat center left; }
+
+.fm93 .ttSecao { background:url(imagens/fm93-bg-tt.png) no-repeat top left; color:#548644; }
+.fm93 .cxProjeto { border-color:#548644; }
+.fm93 .cxProjeto li a,
+.fm93 .linksInstitucionais h3 { color:#548644; }
+.fm93 #Sidebar { background:#C4D82D url(imagens/fm93-bg-top-coluna.png) no-repeat top left; }
+.fm93 .btPesquisar { background-color:#548644; }
+.fm93 .linksInstitucionais li { background:url(imagens/fm93-iclista.gif) no-repeat center left; }
+
+.verdinha .ttSecao { background:url(imagens/verdinha-bg-tt.png) no-repeat top left; color:#007E48; }
+.verdinha .cxProjeto { border-color:#007E48; }
+.verdinha .cxProjeto li a,
+.verdinha .linksInstitucionais h3 { color:#007E48; }
+.verdinha #Sidebar { background:#85C440 url(imagens/verdinha-bg-top-coluna.png) no-repeat top left; }
+.verdinha .btPesquisar { background-color:#007E48; }
+.verdinha .linksInstitucionais li { background:url(imagens/verdinha-iclista.gif) no-repeat center left; }
+
+.tamoio .ttSecao { background:url(imagens/padrao-bg-tt.png) no-repeat top left; color:#00491D; }
+.tamoio .cxProjeto { border-color:#00844A; }
+.tamoio .cxProjeto li a,
+.tamoio .linksInstitucionais h3 { color:#00491D; }
+.tamoio #Sidebar { background:#68BD45 url(imagens/padrao-bg-top-coluna.png) no-repeat top left; }
+.tamoio .btPesquisar { background-color:#00491D; }
+.tamoio .linksInstitucionais li { background:url(imagens/padrao-iclista.gif) no-repeat center left; }
+
+.dn .ttSecao { background:url(imagens/padrao-bg-tt.png) no-repeat top left; color:#00491D; }
+.dn .cxProjeto { border-color:#00844A; }
+.dn .cxProjeto li a,
+.dn .linksInstitucionais h3 { color:#00491D; }
+.dn #Sidebar { background:#68BD45 url(imagens/padrao-bg-top-coluna.png) no-repeat top left; }
+.dn .btPesquisar { background-color:#00491D; }
+.dn .linksInstitucionais li { background:url(imagens/padrao-iclista.gif) no-repeat center left; }
+
+.tvd .ttSecao { background:url(imagens/padrao-bg-tt.png) no-repeat top left; color:#00491D; }
+.tvd .cxProjeto { border-color:#00844A; }
+.tvd .cxProjeto li a,
+.tvd .linksInstitucionais h3 { color:#00491D; }
+.tvd #Sidebar { background:#68BD45 url(imagens/padrao-bg-top-coluna.png) no-repeat top left; }
+.tvd .btPesquisar { background-color:#00491D; }
+.tvd .linksInstitucionais li { background:url(imagens/padrao-iclista.gif) no-repeat center left; }
+
+.pvm .ttSecao { background:url(imagens/padrao-bg-tt.png) no-repeat top left; color:#00491D; }
+.pvm .cxProjeto { border-color:#00844A; }
+.pvm .cxProjeto li a,
+.pvm .linksInstitucionais h3 { color:#00491D; }
+.pvm #Sidebar { background:#68BD45 url(imagens/padrao-bg-top-coluna.png) no-repeat top left; }
+.pvm .btPesquisar { background-color:#00491D; }
+.pvm .linksInstitucionais li { background:url(imagens/padrao-iclista.gif) no-repeat center left; }
